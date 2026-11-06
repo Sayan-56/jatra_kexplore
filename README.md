@@ -5,8 +5,7 @@ Jatra is a responsive event management website for discovering events around Bhu
 Built for **K Explore: Web Designing** using HTML5, CSS3 and vanilla JavaScript.
 
 - **Live site:** _add your deployed link here_
-- **Repository:** https://github.com/Sayan-56/jatra_kexplore
-
+- **Repository:** _add your GitHub link here_
 
 > All events on the site are fictional and made up for this project.
 
@@ -59,19 +58,16 @@ Built for **K Explore: Web Designing** using HTML5, CSS3 and vanilla JavaScript.
 
 ```
 jatra-events/
-├── index.html          Homepage: hero, featured events, search, filters, all events
-├── event.html          Event detail page (reads ?id= from the URL)
-├── register.html       Registration form and "My registrations"
-├── css/
-│   └── style.css       All styles, design tokens, light/dark themes, breakpoints
-├── js/
-│   ├── data.js         Event data and category list
-│   ├── common.js       Shared helpers: dates, storage, artwork, cards, countdown, theme
-│   ├── home.js         Homepage logic: next-up ticket, search, filter, sort
-│   ├── event.js        Detail page rendering
-│   └── register.js     Form validation, confirmation, registration management
-├── assets/
-│   └── favicon.svg
+├── index.html      Homepage: hero, featured events, search, filters, all events
+├── event.html      Event detail page (reads ?id= from the URL)
+├── register.html   Registration form and "My registrations"
+├── style.css       All styles, design tokens, light/dark themes, breakpoints
+├── data.js         Event data and category list
+├── common.js       Shared helpers: dates, storage, artwork, cards, countdown, theme
+├── home.js         Homepage logic: next-up ticket, search, filter, sort
+├── event.js        Detail page rendering
+├── register.js     Form validation, confirmation, registration management
+├── favicon.svg
 └── README.md
 ```
 
@@ -83,7 +79,7 @@ Scripts are plain `<script>` tags loaded in order (`data.js`, then `common.js`, 
 
 ### Event data
 
-Events live in `js/data.js` as an array of objects:
+Events live in `data.js` as an array of objects:
 
 ```js
 {
