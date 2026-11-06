@@ -5,7 +5,8 @@ Jatra is a responsive event management website for discovering events around Bhu
 Built for **K Explore: Web Designing** using HTML5, CSS3 and vanilla JavaScript.
 
 - **Live site:** _add your deployed link here_
-- **Repository:** _add your GitHub link here_
+- **Repository:** https://github.com/Sayan-56/jatra_kexplore
+
 
 > All events on the site are fictional and made up for this project.
 
